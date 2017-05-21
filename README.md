@@ -11,9 +11,13 @@ This application is configured to run on the server port 8083
 server-name be the machine ip-address which the application is running the application 
 ipaddress = ipaddress as a String parameter to determine the country name
 
-#ClientIP mobile
+#ClientIP android mobile app
+
 To make things interesting i ve provided an Android mobile client application which then consume 
 the rest service provided by the above server for country lookUp
+
+The application simple allows the user to input the Ip Address then on submit it calls the Counry LookUp service to get the country name per the Ip address provided.
+
 The android app is committed within this app directory, a package named infologic-pos-android
 this client is already configured to run on a localhost machine which the IPaddress 10.0.2.2 in a case where
 you might be running the country lookUp service on the same machine
